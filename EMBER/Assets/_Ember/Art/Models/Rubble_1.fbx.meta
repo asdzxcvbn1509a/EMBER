@@ -1,0 +1,386 @@
+fileFormatVersion: 2
+guid: c1b7880467bdd654fa40e2ecd7b86ef5
+ModelImporter:
+  serializedVersion: 24600
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Bark
+    second: {fileID: 2100000, guid: fc25a234ed8fd71458f7f488221f82dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Basalt
+    second: {fileID: 2100000, guid: 2de638cc8b5c07c4e84defe1eebb8882, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_BasaltTrim
+    second: {fileID: 2100000, guid: 678f7ad92fa6c004b85ab2435ae92596, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Beam_Amber
+    second: {fileID: 2100000, guid: 607e4905f8ac5ba4cbc2f575e2c8407c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Beam_Gold
+    second: {fileID: 2100000, guid: 954f45b20ee6d2241abf7789d7adefad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Beam_Moon
+    second: {fileID: 2100000, guid: 24c4a5f809ca1044fbda90b3ac40b98f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Brass
+    second: {fileID: 2100000, guid: 40d9da278f1320c4093e56bf6eb81a9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Cloth
+    second: {fileID: 2100000, guid: eebb2c17bfbda9846852a3bf2d17ae01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_ClothGold
+    second: {fileID: 2100000, guid: c0314f54786a21744a4f811914ff37d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Cloud
+    second: {fileID: 2100000, guid: 6c25e8c5798a941498ba8d19fa22ab28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_CloudSea
+    second: {fileID: 2100000, guid: 1f8e6c6b3857d9841b3516c0921a69ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Coal
+    second: {fileID: 2100000, guid: fe07aeb7893f3054f9395cd02b8e8d47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Crystal
+    second: {fileID: 2100000, guid: a4016f143ae6c734bba669256955ccaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Ember
+    second: {fileID: 2100000, guid: 03a5eeae9c2bfc64785b09ce61b49bc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_EyeAmber
+    second: {fileID: 2100000, guid: 33af0aa1547cbfc47a748be73e113a4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_EyeRed
+    second: {fileID: 2100000, guid: eb40c191a0603ab46a5885ffc2fe38ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Floor_Crypt
+    second: {fileID: 2100000, guid: 552f879c55f91f0499901ce1742314b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Floor_Forge
+    second: {fileID: 2100000, guid: 644a2355928ad744eac0c3a2ddd00bbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Floor_Sky
+    second: {fileID: 2100000, guid: 9483a5556e2f7b6418cb6cc89d2c74da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Glow
+    second: {fileID: 2100000, guid: 2d4c7a1543e7a1e4e939d1eb5a1b85ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Glow_Soft
+    second: {fileID: 2100000, guid: d66e7b81c7b916a479494818ea693549, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Gold
+    second: {fileID: 2100000, guid: 4c9965c0a3015204f994cff700518ea8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Iron
+    second: {fileID: 2100000, guid: c831999f4ee71824d8ebb22c2decaa8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Lava
+    second: {fileID: 2100000, guid: 491e2c2e055b0bd4aae98a6917d1daa8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_LavaFall
+    second: {fileID: 2100000, guid: 7bb226a810f0aaf4d9c7cae793877305, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Leaf
+    second: {fileID: 2100000, guid: f4ec274619b650a40a757c78d1edbf27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Limestone
+    second: {fileID: 2100000, guid: 55dd4e7242c7bbc4fb629f8d03e28f03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_LimestoneTrim
+    second: {fileID: 2100000, guid: 20546e4ae375a274dabadc572b83eadb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Logo
+    second: {fileID: 2100000, guid: 008f513fb7c2943418e25b5ca06adc17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Mist
+    second: {fileID: 2100000, guid: 1573a1ce30ab2464e873eb7cbab4f9f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Particle_Crystal
+    second: {fileID: 2100000, guid: 7c13f8f8cd7be894b8ffac9414812119, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Particle_Dust
+    second: {fileID: 2100000, guid: 6d5eafbb48e1a1f4fa88f35811a4805f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Particle_Fire
+    second: {fileID: 2100000, guid: 6fe2e5a4568a04b4fa0457b317ede3d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Particle_Glow
+    second: {fileID: 2100000, guid: 55b10756531a8d64e977e2ec94b2f613, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Particle_Smoke
+    second: {fileID: 2100000, guid: c0f0096111e057b428e97ba5b56ce18d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Particle_Spark
+    second: {fileID: 2100000, guid: 88bcbe69ed89004419b04bc7cc648d5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_RuneAmber
+    second: {fileID: 2100000, guid: 5d420e0ed86f2484ab99ac1def98de7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_RuneCyan
+    second: {fileID: 2100000, guid: 31fb416645446ed44a9da016bec01f1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_RuneDecal_Amber
+    second: {fileID: 2100000, guid: 98906f6a79074ca4185142ae6f476d39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_RuneDecal_Cyan
+    second: {fileID: 2100000, guid: db7bbc43914c85b409e963a594c9007c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_RuneRed
+    second: {fileID: 2100000, guid: af4413b7de6c73f458763dfe2b2c480d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Sky_Crypt
+    second: {fileID: 2100000, guid: 221f698aab4445640a33956d0b48372c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Sky_Dawn
+    second: {fileID: 2100000, guid: 5cb434c0a785fa843b3721ce37ce0cb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Sky_Ending
+    second: {fileID: 2100000, guid: 272752f0b2cabe1478e6bde4bab72ce0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Sky_Forge
+    second: {fileID: 2100000, guid: d8fdf49a95e901e42af21fec00e2b883, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Sky_Title
+    second: {fileID: 2100000, guid: 1d0701602487c5e4d8b25fbc989596e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Statue
+    second: {fileID: 2100000, guid: fddfb4bb59113134d8ab6882e6f645ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Stone
+    second: {fileID: 2100000, guid: 3a18eacf7a995004b9dc4202ed9a6bd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_StoneDark
+    second: {fileID: 2100000, guid: d4abd7ea16d88434796f8061c1490747, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_StoneTrim
+    second: {fileID: 2100000, guid: 9cb7a2ddac461ab45908249da6219e4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Wall_Crypt
+    second: {fileID: 2100000, guid: 6a9797f1997ed784eab42e776584a019, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Wall_Forge
+    second: {fileID: 2100000, guid: b28160577e1156c4eba906cba7df5829, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Water
+    second: {fileID: 2100000, guid: e5b447a3e208d4c418d87c3cd5f7be5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Wood
+    second: {fileID: 2100000, guid: d39731a6bdc34c043b5a6f65bfcbc603, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+    searchTexturesGlobally: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    preBakeConvexCollisionMesh: 0
+    preBakeTriangleCollisionMesh: 0
+    importPhysicalCameras: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    importUVs: -1
+    importVertexColors: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 35
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+    calculateBlendshapeNormalsDeltaFromImportedNormals: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

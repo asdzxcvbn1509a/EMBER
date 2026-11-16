@@ -1,0 +1,56 @@
+# ===== Unity (EMBER project) =====
+EMBER/[Ll]ibrary/
+EMBER/[Tt]emp/
+EMBER/[Oo]bj/
+EMBER/[Bb]uild/
+EMBER/[Bb]uilds/
+EMBER/[Ll]ogs/
+EMBER/[Uu]ser[Ss]ettings/
+EMBER/[Mm]emoryCaptures/
+EMBER/[Rr]ecordings/
+
+# IDE / generated
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vsconfig
+
+# Crash / misc
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+crashlytics-build.properties
+
+# ===== Repo root =====
+Build/
+Logs/
+# Large deliverables -> upload via GitHub Releases
+Deliver/*.zip
+Deliver/*.mp4
+
+# Blender backups
+*.blend1
+*.blend2
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.pyc

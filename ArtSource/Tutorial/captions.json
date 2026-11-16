@@ -1,0 +1,56 @@
+{
+  "_readme": [
+    "Captions of the EMBER tutorial video. Edit the Thai text freely; keep the ids (the game's TutorialScript.cs uses them).",
+    "Markup: [W] [SPACE] ... = a key drawn as an amber keycap; {NEW GAME} ... = a menu / HUD word in amber. \\n = new line (Thai lines are not wrapped automatically).",
+    "kind: sub = caption box, title = large title, card = text on a black screen. pos: bottom, top, br (bottom right), tr (top right), center, right.",
+    "hold: seconds the game keeps the caption on screen before it moves on (empty = from the text length). Changing hold needs a new take; changing text does not.",
+    "say: what to read in the voice-over, when it differs from the caption (empty = the caption text)."
+  ],
+  "captions": [
+    { "id": "t_intro", "kind": "title", "pos": "center", "text": "วิธีเล่น\nEMBER — ลูกไฟดวงสุดท้าย", "say": "วิธีเล่นเกม EMBER ลูกไฟดวงสุดท้าย", "hold": 3.6 },
+    { "id": "t_story", "kind": "sub", "pos": "br", "text": "คุณคือลูกไฟดวงสุดท้ายของวิหารที่มืดดับ\nกลิ้งไปจุดตะเกียง แล้วจุดประภาคารให้สว่างอีกครั้ง" },
+    { "id": "t_menu", "kind": "sub", "pos": "br", "text": "ใช้เมาส์คลิกเลือกเมนู\n{NEW GAME} เริ่มเล่นตั้งแต่ด่านแรก" },
+    { "id": "t_select", "kind": "sub", "pos": "br", "text": "{STAGE SELECT} เลือกเข้าด่านไหนก่อนก็ได้\nทุกด่านเปิดให้เล่นตั้งแต่แรก" },
+    { "id": "t_how", "kind": "sub", "pos": "br", "text": "{HOW TO PLAY} สรุปเรื่องราวและปุ่มควบคุม" },
+
+    { "id": "s1_roll", "kind": "sub", "pos": "bottom", "text": "กด [W] [A] [S] [D] หรือปุ่มลูกศร เพื่อกลิ้งลูกไฟ\n[W] ไปข้างหน้า (เข้าไปในจอ)   [S] ถอยหลัง   [A] ซ้าย   [D] ขวา" },
+    { "id": "s1_brake", "kind": "sub", "pos": "bottom", "text": "ปล่อยปุ่มแล้วลูกไฟจะยังไหลต่อ\nกดทิศตรงข้ามเพื่อเบรก" },
+    { "id": "s1_cp", "kind": "sub", "pos": "bottom", "text": "เสาไฟที่ติดขึ้นคือเช็กพอยต์ ({CHECKPOINT})\nบันทึกจุดเกิดใหม่ให้อัตโนมัติ" },
+    { "id": "s1_plate", "kind": "sub", "pos": "bottom", "text": "ของที่เรืองแสงสีอำพันคือกลไกที่ใช้งานได้\nกลิ้งขึ้นแผ่นกดเพื่อจุดตะเกียงและเปิดทาง" },
+    { "id": "s1_jump", "kind": "sub", "pos": "bottom", "text": "กด [SPACE] เพื่อกระโดด สูงราว 2 เมตร\nข้ามช่องว่างได้ราว 2.5 เมตร" },
+    { "id": "s1_shard", "kind": "sub", "pos": "bottom", "text": "เก็บ Ember Shard ได้ด่านละ 3 ชิ้น (รวม 9 ชิ้น)\nไม่บังคับเก็บ ดูจำนวนได้ที่มุมขวาบน" },
+    { "id": "s1_ledge", "kind": "sub", "pos": "bottom", "text": "แผ่นกดสั่งงานของที่อยู่ไกลออกไปได้\nแผ่นบนหิ้งนี้ยกประตูเหล็กขึ้น" },
+    { "id": "s1_pause", "kind": "sub", "pos": "bottom", "text": "กด [ESC] เพื่อหยุดเกม แล้วใช้เมาส์เลือกเมนู" },
+    { "id": "s1_pause2", "kind": "sub", "pos": "bottom", "text": "{RESUME} เล่นต่อ   {RESTART AT CHECKPOINT} กลับเช็กพอยต์\n{MAIN MENU} กลับหน้าแรก   {QUIT GAME} ออกจากเกม" },
+    { "id": "s1_photo", "kind": "sub", "pos": "top", "text": "กด [F] เข้าโหมดถ่ายภาพ บินกล้องด้วย [W] [A] [S] [D] และเมาส์\nกด [F] อีกครั้งเพื่อกลับมาเล่นต่อ" },
+    { "id": "s1_order", "kind": "sub", "pos": "bottom", "text": "ห้องนี้มีแผ่นกด 3 แผ่น ต้องกดตามลำดับ\nแต่ละแผ่นปลดผนึกประตูออกหนึ่งชั้น" },
+    { "id": "s1_fall", "kind": "sub", "pos": "bottom", "text": "ตกเหวหรือลาวาก็ไม่เป็นไร จะกลับมาที่เช็กพอยต์ล่าสุด\nปริศนาที่แก้แล้วไม่หายไป ไม่มี Game Over และไม่จับเวลา" },
+    { "id": "s1_r", "kind": "sub", "pos": "bottom", "text": "ติดอยู่บนเกาะหรือหลงทาง? กด [R]\nเพื่อกลับไปเช็กพอยต์ล่าสุดได้ทุกเมื่อ" },
+    { "id": "s1_slab", "kind": "sub", "pos": "bottom", "text": "รอแท่นเคลื่อนที่มาเทียบ แล้วกลิ้งขึ้นไปอยู่นิ่ง ๆ" },
+    { "id": "s1_beam3", "kind": "sub", "pos": "bottom", "text": "แผ่นที่สองทำให้สะพานไปเกาะที่สามโผล่ขึ้นมา" },
+    { "id": "s1_door", "kind": "sub", "pos": "bottom", "text": "ผนึกหลุดครบสามชั้น ประตูก็เปิด" },
+    { "id": "s1_portal", "kind": "sub", "pos": "bottom", "text": "กลิ้งเข้าวงเวทย์เพื่อไปด่านถัดไป" },
+
+    { "id": "s2_intro", "kind": "sub", "pos": "bottom", "text": "ด่าน II: บางกลไกลูกไฟกดเองไม่ได้\nต้องปล่อยของให้ไปกดแทน" },
+    { "id": "s2_raft", "kind": "sub", "pos": "bottom", "text": "แผ่นกดปล่อยแพหินลอยมาตามลาวาทุก 5 วินาที\nรอให้แพมาถึง แล้วกระโดด [SPACE] ขึ้นไป" },
+    { "id": "s2_raft2", "kind": "sub", "pos": "bottom", "text": "อยู่นิ่ง ๆ บนแพ แล้วกระโดดขึ้นท่าฝั่งตรงข้าม\nก่อนแพจะไหลตกน้ำตกลาวา" },
+    { "id": "s2_iron", "kind": "sub", "pos": "bottom", "text": "กดแผ่นบนระเบียงเพื่อปล่อยลูกเหล็ก\nลูกเหล็กจะไหลลงรางไปทุบกำแพงที่ร้าว" },
+    { "id": "s2_boulder", "kind": "sub", "pos": "bottom", "text": "หินไฟจะกลิ้งลงมาสองเลนทางซ้ายและขวา\nเดินขึ้นเลนกลาง หรือหลบเข้าซอกข้างทาง" },
+    { "id": "s2_boulder2", "kind": "sub", "pos": "bottom", "text": "หินแค่กระแทกให้กระเด็น ไม่ทำให้แพ้\nแต่ระวังกระเด็นตกลาวา" },
+    { "id": "s2_weight", "kind": "sub", "pos": "bottom", "text": "แผ่นนี้ปล่อยตุ้มถ่วงลงรางไปที่ตาชั่ง\nตุ้มที่ค้างอยู่บนตาชั่งจะเปิดประตูไว้" },
+    { "id": "s2_weight2", "kind": "sub", "pos": "bottom", "text": "ถ้าตุ้มตกพลาด ให้กดแผ่นอีกครั้ง" },
+    { "id": "s2_exit", "kind": "sub", "pos": "bottom", "text": "กลิ้งเข้าเบ้าหลอมเพื่อไปด่าน III" },
+
+    { "id": "s3_rings", "kind": "sub", "pos": "bottom", "text": "กลิ้งผ่านวงแหวนเพื่อวาร์ป\nวงสีเดียวกันคือประตูคู่เดียวกัน" },
+    { "id": "s3_rings2", "kind": "sub", "pos": "bottom", "text": "หลังวาร์ป ลูกไฟยังพุ่งต่อด้วยความเร็วเดิม\nเตรียมกดเบรก" },
+    { "id": "s3_bridge", "kind": "sub", "pos": "bottom", "text": "สะพานหมุนเป็นจังหวะ รอให้ต่อกันพอดี\nแล้วรีบข้ามให้ทันภายในราว 4 วินาที" },
+    { "id": "s3_hub", "kind": "sub", "pos": "bottom", "text": "ลานกลางมีทางไปตะเกียง 3 ดวง ทำดวงไหนก่อนก็ได้\nแต่ละดวงยกบันไดไปประภาคารขึ้นหนึ่งช่วง" },
+    { "id": "s3_tiles", "kind": "sub", "pos": "bottom", "text": "ทางซ่อนจะโผล่ขึ้นทีละแผ่นเมื่อกลิ้งไปข้างหน้า\nแผ่นกดบนเกาะวางสะพานหินลงมาต่อทาง" },
+    { "id": "s3_west", "kind": "sub", "pos": "bottom", "text": "ตะเกียงติดแล้ว ลำแสงพุ่งไปที่ประภาคาร\nและบันไดช่วงแรกยกขึ้น" },
+    { "id": "s3_others", "kind": "card", "pos": "center", "text": "อีกสองดวงใช้กลไกที่เรียนมาแล้ว\nปล่อยหินอาทิตย์ไปทุบผนึกคริสตัล\nวาร์ปขึ้นเกาะสูงแล้วขี่แท่นเคลื่อนที่", "hold": 5.0 },
+    { "id": "s3_beacon", "kind": "sub", "pos": "bottom", "text": "ตะเกียงครบสามดวง บันไดก็ครบ\nกลิ้งขึ้นไปที่แท่นบูชาเพื่อจุดประภาคาร" },
+
+    { "id": "end_stats", "kind": "sub", "pos": "tr", "text": "จบเกมจะแสดงเวลาที่ใช้\nและจำนวน Ember Shard ที่เก็บได้" },
+    { "id": "end_bye", "kind": "title", "pos": "right", "text": "ขอให้สนุกกับ EMBER", "hold": 3.4 }
+  ]
+}
